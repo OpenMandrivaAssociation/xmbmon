@@ -13,7 +13,6 @@ Patch2:  %{name}%{realversion}_fflush.patch.bz2
 License: BSD
 Group: System/Kernel and hardware
 Url: http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/download.html
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libxorg-x11-devel
 
 %description

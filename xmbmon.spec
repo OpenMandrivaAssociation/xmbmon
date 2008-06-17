@@ -14,7 +14,7 @@ License: BSD
 Group: System/Kernel and hardware
 Url: http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/download.html
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libxorg-x11-devel
+BuildRequires: X11-devel
 
 %description
 A motherboard monitoring tools that uses the SMI bus.

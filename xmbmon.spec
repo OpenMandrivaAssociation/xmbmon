@@ -1,7 +1,7 @@
 %define name xmbmon
 %define version 2.05
 %define realversion 205
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: A motherboad monitoring tool
 Name: %{name}

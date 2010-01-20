@@ -1,14 +1,14 @@
 %define name xmbmon
 %define version 2.05
 %define realversion 205
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: A motherboad monitoring tool
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/%{name}%{realversion}.tar.gz
-Patch1:	 %{name}-makefile.patch.bz2
+Patch1:	 %{name}_2.05-6.patch.bz2
 Patch2:  %{name}%{realversion}_fflush.patch.bz2
 License: BSD
 Group: System/Kernel and hardware
@@ -20,7 +20,7 @@ BuildRequires: X11-devel
 A motherboard monitoring tools that uses the SMI bus.
 %prep
 %setup -q -n %{name}%{realversion}
-%patch1 -p0
+%patch1 -p1
 %patch2 -p0
 
 %build

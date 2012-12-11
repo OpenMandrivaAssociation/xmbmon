@@ -1,2 +1,4 @@
 sources:
-  "xmbmon205.tar.gz:"	4fc4b1442a6e638b2c5cbcf9b26ca17465b0da70
+  "xmbmon205.tar.gz": 4fc4b1442a6e638b2c5cbcf9b26ca17465b0da70
+  "xmbmon205_fflush.patch.bz2": 8d5ba805b4488d34379f7679163df4437aaa98f8
+  "xmbmon_2.05-6.patch.bz2": c4c3184be2cb365f0ebdb88fc0d0199fb33223bc
